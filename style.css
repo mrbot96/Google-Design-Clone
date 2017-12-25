@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header nav{
+    padding: 10px;
+    margin: 10px 0 100px;
+}
+
+header nav ul li{
+    display: inline;
+    margin: 0 5px 0;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #757575;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    color: #757575;
+}
+
+header nav ul li a#btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: dodgerblue;
+    padding: 6px 10px 6px;
+    border: dodgerblue solid 1px;
+    border-radius: 3px;
+}
+
+
+
+section{
+    width: 590px;
+    margin: 0 auto;
+}
+
+h1#logo{
+    width: 50%;
+    height: 115px;
+    background-image: url(logo.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+
+input[type="text"]{
+    display: block;
+    width: 95%;
+    height: 20px;
+    margin: 0 auto;
+    padding:8px;
+    border: #f2f2f2 solid 1px;
+}
+
+div#center-btn{
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type="submit"]{
+    padding: 7px;
+    width: 47%;
+    margin:10px 0 10px;
+    background-color: #f2f2f2;
+    border: #f2f2f2 solid 1px;
+    color: #757575;
+    font-weight: bold;
+}
+
+small{
+    display: block;
+    text-align: center;
+}
+
+small a {
+    text-decoration: none;
+}
+
+small a:hover,
+small a:link,
+small a:visited{
+    text-decoration: underline;
+}
+
+footer#footer{
+    width: 100%;
+    background-color:#f2f2f2;
+    position: fixed;
+    bottom:0;
+}
+
+footer#footer ul{
+    list-style: none;
+}
+
+footer#footer ul li{
+    display: inline;
+    padding: 7px;
+}
+
+footer#footer ul li a{
+    text-decoration: none;
+    color: #757575;
+}
+
+ul#left-float {
+    float:left;
+    padding: 15px;
+    display: inline;
+}
+
+ul#right-float{
+    float: right;
+    padding: 15px;
+}
+
+footer#footer:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clear{
+    clear:both;
+}
+
+/*Wa7 Goolge <3*/
